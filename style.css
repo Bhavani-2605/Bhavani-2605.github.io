@@ -1,0 +1,120 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.top-container{
+    text-align: center;
+    color: cornflowerblue;
+}
+h1{
+    font-size: 5.625rem;
+    margin: 150px auto 0 auto;
+    font-family: "Sacramento", cursive;
+
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom:250px;
+}
+
+.middle-container{
+    margin: 20px 0;
+}
+.myimg{
+    margin-top: 100px;
+    border-radius: 50%;
+}
+h2{
+    color: cornflowerblue;
+    font-weight: normal;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+    color: rgb(58, 57, 57);
+    font-size: 20;
+}
+p{
+    line-height: 2;
+}
+hr{
+    border: dotted gray;
+    border-bottom: none;
+    width: 3%;
+    margin: 100px auto;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1,1fr);
+    width: 50%;
+    row-gap: 2rem;
+    margin: 100px auto 0 auto;
+    text-align: left;
+}
+
+.development>h3{
+    font-weight: bold;
+    color: cornflowerblue;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 10;
+    text-align: left;
+}
+.para{
+    font-size: 18px;
+    margin-top: 0;
+    color: rgb(58, 57, 57);
+
+}
+.btn{
+    background-color: rgb(41, 103, 218);
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+h3{
+    color: cornflowerblue;
+    text-align: center;
+}
+.msg{
+    width: 40%;
+    margin: 40px auto 60px auto;
+    color: rgb(58, 57, 57);
+
+}
+
+.last-container{
+    background-color: cornflowerblue;
+    padding: 50px 0 20px;
+    margin-top: 100px;
+
+}
+.links{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+.links:hover {
+    color: white;
+}
+
+.copy-right{
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+}
